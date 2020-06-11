@@ -1,0 +1,5 @@
+TODO LIST
+* Crear todas las paginas de la navegacion
+* Hacer un componente para fotos (que acepte dimensiones como funcion)
+* Poner estilo de la pagina web
+* Poner textos y fotos 
