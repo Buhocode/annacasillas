@@ -1,0 +1,40 @@
+*,*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+    /* this box sizing says that it will not include padding and margin to total dimensions of box */
+}
+/* basic reset, adds css to everything for every browser */
+html {
+    font-size: 62.5%;
+    font-family: 'quicksand';
+
+    /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */
+    // this defines what a 1rem is
+
+    // @include respond(tab-land) {
+    //     font-size: 56.25%; //1rem = 9px
+    // }
+    // @include respond(tab-port) {
+    //     font-size: 50%; //1rem = 8px
+    // }   
+    // @include respond(big-desktop) {
+    //     font-size: 75%; //1rem = 12px
+    // }
+}
+a {
+    text-decoration: none;
+}
+body {
+    box-sizing: border-box;
+    background-color: #010000;
+    /* changes the box model to make the content area the total border size, easier calculations */
+    // @include respond(tab-port) {
+    //     padding: 0;
+    // }
+}
+
+// ::selection { //when object is highlighted
+// //     background-color: $color-primary;
+// //     color: $color-white;
+// // }

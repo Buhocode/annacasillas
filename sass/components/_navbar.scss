@@ -1,0 +1,29 @@
+.nav {
+    position: fixed;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+        color: white;
+    }
+    &-right {
+        color: white;
+    }
+    &-title {
+        color: white;
+        font-size: 3em;
+        font-weight: 500;
+    }
+    &-item {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        margin: 0 1rem;
+        font-weight: 600;
+    }
+}
+

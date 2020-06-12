@@ -1,0 +1,15 @@
+// to compile sass, run npm run compile:sass 
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base"; //sass understands the import, without adding the __ and .scss
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/navbar";
+
+@import "layout/grid";
+
+@import "pages/home";

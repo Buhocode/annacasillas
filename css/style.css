@@ -1,0 +1,103 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* this box sizing says that it will not include padding and margin to total dimensions of box */ }
+
+/* basic reset, adds css to everything for every browser */
+html {
+  font-size: 62.5%;
+  font-family: 'quicksand';
+  /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */ }
+
+a {
+  text-decoration: none; }
+
+body {
+  box-sizing: border-box;
+  background-color: #010000;
+  /* changes the box model to make the content area the total border size, easier calculations */ }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Light.ttf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Medium.ttf");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Bold.ttf");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf");
+  font-weight: 600; }
+
+.nav {
+  position: fixed;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav-left {
+    color: white; }
+  .nav-right {
+    color: white; }
+  .nav-title {
+    color: white;
+    font-size: 3em;
+    font-weight: 500; }
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-weight: 600; }
+
+.header {
+  display: flex;
+  height: 90vh; }
+  .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/microuniversos/microuniversos1.jpg);
+    background-position: center;
+    background-size: cover; }
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/retratos/retratos1.jpg);
+    background-position: center;
+    background-size: cover; }
+  .header-title {
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    transform: translateY(20rem); }
+
+.about {
+  padding: 5rem; }
+  .about-title {
+    color: white;
+    font-size: 4em; }
+  .about-description {
+    color: white;
+    font-size: 1.6em;
+    width: 40%;
+    margin: 2rem 1rem; }
