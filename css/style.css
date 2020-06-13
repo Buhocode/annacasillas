@@ -86,10 +86,14 @@ body {
     background-position: center;
     background-size: cover; }
   .header-title {
-    color: white;
+    color: red;
     font-weight: 500;
     font-size: 3em;
-    transform: translateY(20rem); }
+    margin-top: 35rem;
+    transition: 0.3s all ease-in-out; }
+    .header-title:hover {
+      transform: scale(1.2);
+      cursor: pointer; }
 
 .about {
   padding: 5rem; }
