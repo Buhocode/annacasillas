@@ -2,113 +2,85 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 5px;
+    grid-gap: 5rem;
     justify-items: center;
     align-items: center;
-    /* justify-items: stretch; default */
-    /* justify-items: start; manda el contenido al inicio de la columna*/
-    /* align-items: start; lo mismo pero vertical */
 }
 
 .bgimg {
+    height: 50vh;
+    width: max-content;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    overflow: hidden;
+
     &-ajolote {
         grid-column-start: 1;
         grid-column-end: 3;
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/animales/ajolote.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/naturaleza/naturaleza (1).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/naturaleza/naturaleza (1).jpg");
+        }
     }
     &-autoretratos {
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/autorretratos/annaexpo.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/autoretratos/autoretrato (1).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/autoretratos/autoretrato (1).jpg");
+        }
     }
     &-exlibris {
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/exlibris/pablo.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+        // url("../img/exlibris/Exlibirs pablo-min.jpg");
     }
     &-producto {
         grid-column-start: 2;
         grid-column-end: 4;
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fotografiadeproducto/Joyeria.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/productos/productos (1).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/productos/productos (1).jpg");
+        }
     }
     &-microuniversos {
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/microuniversos/microuniversos1.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+        }
     }
     &-ojos {
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/ojos/IMG_2252.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/proyectos/ojos/ojo (11).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/proyectos/ojos/ojo (11).jpg");
+        }
     }
     &-retratos {
-        height: 90vh;
-        width: max-content;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/retratos/reto1.jpg);
-        background-position: center;
-        background-size: cover;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/retratos/retrato (13).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/retratos/retrato (13).jpg");
+        }
     }
 }
 
 .redirigir {
     color: white;
     font-weight: 500;
-    font-size: 5em;
-    transition: 0.3s all ease-in-out;
-    &:hover {
-        transform: scale(1.2);
-        cursor: pointer;
-    }
-}
-
-.redirigirnegro {
-    color: black;
-    font-weight: 500;
-    font-size: 5em;
+    font-size: 3em;
     transition: 0.3s all ease-in-out;
     &:hover {
         transform: scale(1.2);
