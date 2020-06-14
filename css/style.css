@@ -1,222 +1,274 @@
-*, *::after, *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-  /* this box sizing says that it will not include padding and margin to total dimensions of box */ }
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    /* this box sizing says that it will not include padding and margin to total dimensions of box */
+}
+
 
 /* basic reset, adds css to everything for every browser */
+
 html {
-  font-size: 62.5%;
-  font-family: 'quicksand';
-  /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */ }
+    font-size: 62.5%;
+    font-family: 'quicksand';
+    /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */
+}
 
 a {
-  text-decoration: none; }
+    text-decoration: none;
+}
 
 body {
-  box-sizing: border-box;
-  background-color: #010000;
-  /* changes the box model to make the content area the total border size, easier calculations */ }
+    box-sizing: border-box;
+    background-color: #010000;
+    /* changes the box model to make the content area the total border size, easier calculations */
+}
 
 @font-face {
-  font-family: "quicksand";
-  src: url("../fonts/Quicksand-Regular.ttf");
-  font-weight: 400; }
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand-Regular.ttf");
+    font-weight: 400;
+}
 
 @font-face {
-  font-family: "quicksand";
-  src: url("../fonts/Quicksand-Light.ttf");
-  font-weight: 300; }
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand-Light.ttf");
+    font-weight: 300;
+}
 
 @font-face {
-  font-family: "quicksand";
-  src: url("../fonts/Quicksand-Medium.ttf");
-  font-weight: 500; }
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand-Medium.ttf");
+    font-weight: 500;
+}
 
 @font-face {
-  font-family: "quicksand";
-  src: url("../fonts/Quicksand-Bold.ttf");
-  font-weight: 700; }
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand-Bold.ttf");
+    font-weight: 700;
+}
 
 @font-face {
-  font-family: "quicksand";
-  src: url("../fonts/Quicksand-SemiBold.ttf");
-  font-weight: 600; }
+    font-family: "quicksand";
+    src: url("../fonts/Quicksand-SemiBold.ttf");
+    font-weight: 600;
+}
 
 .nav {
-  position: fixed;
-  width: 100vw;
-  padding: 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center; }
-  .nav-left {
-    color: white; }
-  .nav-right {
-    color: white; }
-  .nav-title {
+    position: fixed;
+    width: 100vw;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    color: white;
+}
+
+.nav-right {
+    color: white;
+}
+
+.nav-title {
     color: white;
     font-size: 3em;
-    font-weight: 500; }
-  .nav-item {
+    font-weight: 500;
+}
+
+.nav-item {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
     text-transform: uppercase;
     margin: 0 1rem;
-    font-weight: 600; }
+    font-weight: 600;
+}
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 5px;
-  justify-items: center;
-  align-items: center;
-  /* justify-items: stretch; default */
-  /* justify-items: start; manda el contenido al inicio de la columna*/
-  /* align-items: start; lo mismo pero vertical */ }
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    /* justify-items: stretch; default */
+    /* justify-items: start; manda el contenido al inicio de la columna*/
+    /* align-items: start; lo mismo pero vertical */
+}
 
 .bgimg-ajolote {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/animales/ajolote.jpg);
-  background-position: center;
-  background-size: cover; }
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/animales/ajolote.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-autoretratos {
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/autorretratos/annaexpo.jpg);
-  background-position: center;
-  background-size: cover; }
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/autorretratos/annaexpo.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-exlibris {
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/exlibris/pablo.jpg);
-  background-position: center;
-  background-size: cover; }
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/exlibris/pablo.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-producto {
-  grid-column-start: 2;
-  grid-column-end: 4;
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fotografiadeproducto/Joyeria.jpg);
-  background-position: center;
-  background-size: cover; }
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fotografiadeproducto/Joyeria.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-microuniversos {
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/microuniversos/microuniversos1.jpg);
-  background-position: center;
-  background-size: cover; }
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/microuniversos/microuniversos1.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-ojos {
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/ojos/IMG_2252.jpg);
-  background-position: center;
-  background-size: cover; }
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/ojos/IMG_2252.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .bgimg-retratos {
-  height: 90vh;
-  width: max-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/retratos/reto1.jpg);
-  background-position: center;
-  background-size: cover; }
+    height: 90vh;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/retratos/reto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
 .redirigir {
-  color: white;
-  font-weight: 500;
-  font-size: 5em;
-  transition: 0.3s all ease-in-out; }
-  .redirigir:hover {
+    color: white;
+    font-weight: 500;
+    font-size: 5em;
+    transition: 0.3s all ease-in-out;
+}
+
+.redirigir:hover {
     transform: scale(1.2);
-    cursor: pointer; }
+    cursor: pointer;
+}
 
 .redirigirnegro {
-  color: black;
-  font-weight: 500;
-  font-size: 5em;
-  transition: 0.3s all ease-in-out; }
-  .redirigirnegro:hover {
+    color: black;
+    font-weight: 500;
+    font-size: 5em;
+    transition: 0.3s all ease-in-out;
+}
+
+.redirigirnegro:hover {
     transform: scale(1.2);
-    cursor: pointer; }
+    cursor: pointer;
+}
 
 .header {
-  display: flex;
-  height: 90vh; }
-  .header-left {
+    display: flex;
+    height: 90vh;
+}
+
+.header-left {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/microuniversos/microuniversos1.jpg);
     background-position: center;
-    background-size: cover; }
-  .header-right {
+    background-size: cover;
+}
+
+.header-right {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/retratos/retratos1.jpg);
     background-position: center;
-    background-size: cover; }
-  .header-title {
-    color: white;
+    background-size: cover;
+}
+
+.header-title {
+    color: red;
     font-weight: 500;
     font-size: 3em;
     margin-top: 35rem;
-    transition: 0.3s all ease-in-out; }
-    .header-title:hover {
-      transform: scale(1.2);
-      cursor: pointer; }
-  .header-section {
+    transition: 0.3s all ease-in-out;
+}
+
+.header-title:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.header-section {
     color: white;
     font-weight: 500;
     font-size: 8em;
-    text-align: center; }
+    text-align: center;
+}
 
 .about {
-  padding: 5rem; }
-  .about-title {
+    padding: 5rem;
+}
+
+.about-title {
     color: white;
-    font-size: 4em; }
-  .about-description {
+    font-size: 4em;
+}
+
+.about-description {
     color: white;
     font-size: 1.6em;
     width: 40%;
-    margin: 2rem 1rem; }
+    margin: 2rem 1rem;
+}
