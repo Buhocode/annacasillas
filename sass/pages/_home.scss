@@ -6,39 +6,45 @@
         justify-content: center;
         align-items: center;
         width: 50%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url(../img/microuniversos/microuniversos1.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/microuniversos/microuniversos1.jpg);
         background-position: center;
         background-size: cover;
     }
-
     &-right {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 50%;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url(../img/retratos/retratos1.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/retratos/retratos1.jpg);
         background-position: center;
         background-size: cover;
     }
-
     &-title {
         color: white;
         font-weight: 500;
         font-size: 3em;
-        transform: translateY(20rem);
+        margin-top: 35rem;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+    &-section {
+        color: white;
+        font-weight: 500;
+        font-size: 8em;
+        text-align: center;
     }
 }
 
 .about {
     padding: 5rem;
-
     &-title {
         color: white;
         font-size: 4em;
     }
-    &-description{
+    &-description {
         color: white;
         font-size: 1.6em;
         width: 40%;

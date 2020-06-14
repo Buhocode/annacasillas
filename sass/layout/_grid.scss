@@ -1,0 +1,117 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    /* justify-items: stretch; default */
+    /* justify-items: start; manda el contenido al inicio de la columna*/
+    /* align-items: start; lo mismo pero vertical */
+}
+
+.bgimg {
+    &-ajolote {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/animales/ajolote.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-autoretratos {
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/autorretratos/annaexpo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-exlibris {
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/exlibris/pablo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-producto {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/fotografiadeproducto/Joyeria.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-microuniversos {
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/microuniversos/microuniversos1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-ojos {
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/ojos/IMG_2252.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &-retratos {
+        height: 90vh;
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/img/retratos/reto1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.redirigir {
+    color: white;
+    font-weight: 500;
+    font-size: 5em;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+.redirigirnegro {
+    color: black;
+    font-weight: 500;
+    font-size: 5em;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
