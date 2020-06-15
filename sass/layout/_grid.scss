@@ -7,6 +7,21 @@
     align-items: center;
 }
 
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+.containermenor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
 .bgimg {
     height: 50vh;
     width: max-content;
@@ -18,23 +33,18 @@
     background-size: cover;
     border-radius: 1rem;
     overflow: hidden;
-
     &-ajolote {
         grid-column-start: 1;
         grid-column-end: 3;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/naturaleza/naturaleza (1).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/naturaleza/naturaleza (1).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/naturaleza/naturaleza (1).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (1).jpg");
         }
     }
     &-autoretratos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/autoretratos/autoretrato (1).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/autoretratos/autoretrato (1).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/autoretratos/autoretrato (1).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/autoretratos/autoretrato (1).jpg");
         }
     }
     &-exlibris {
@@ -44,35 +54,55 @@
     &-producto {
         grid-column-start: 2;
         grid-column-end: 4;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/productos/productos (1).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/productos/productos (1).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/productos/productos (1).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (1).jpg");
         }
     }
     &-microuniversos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
         }
     }
     &-ojos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/proyectos/ojos/ojo (11).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proyectos/ojos/ojo (11).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/proyectos/ojos/ojo (11).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/ojos/ojo (11).jpg");
         }
     }
     &-retratos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("../img/retratos/retrato (13).jpg");
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/retratos/retrato (13).jpg");
         &:hover {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/retratos/retrato (13).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retrato (13).jpg");
+        }
+    }
+    &-instagram {
+        height: 80vh;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/retratos/retrato (3).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retrato (3).jpg");
+        }
+    }
+    &-correo {
+        height: 80vh;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/naturaleza/naturaleza (14).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (14).jpg");
+        }
+    }
+    &-px {
+        height: 80vh;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/productos/productos (3).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (3).jpg");
+        }
+    }
+    &-telefono {
+        height: 80vh;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/autoretratos/autoretrato (5).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/autoretratos/autoretrato (5).jpg");
         }
     }
 }
@@ -81,6 +111,17 @@
     color: white;
     font-weight: 500;
     font-size: 3em;
+    transition: 0.3s all ease-in-out;
+    margin-top: 3em;
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+.svg {
+    height: 17em;
+    width: 17em;
     transition: 0.3s all ease-in-out;
     &:hover {
         transform: scale(1.2);

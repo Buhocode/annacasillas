@@ -1,1 +1,254 @@
-*,*::after,*::before{margin:0;padding:0;box-sizing:inherit}html{font-size:62.5%;font-family:'quicksand'}a{text-decoration:none}body{box-sizing:border-box;background-color:#010000}@font-face{font-family:"quicksand";src:url("../fonts/Quicksand-Regular.ttf");font-weight:400}@font-face{font-family:"quicksand";src:url("../fonts/Quicksand-Light.ttf");font-weight:300}@font-face{font-family:"quicksand";src:url("../fonts/Quicksand-Medium.ttf");font-weight:500}@font-face{font-family:"quicksand";src:url("../fonts/Quicksand-Bold.ttf");font-weight:700}@font-face{font-family:"quicksand";src:url("../fonts/Quicksand-SemiBold.ttf");font-weight:600}.nav{position:fixed;z-index:1000;width:100vw;padding:2rem;display:-webkit-box;display:flex;-webkit-box-pack:justify;justify-content:space-between;-webkit-box-align:center;align-items:center}.nav-left{color:white}.nav-right{color:white}.nav-title{color:white;font-size:3em;font-weight:500}.nav-item{color:white;text-decoration:none;font-size:1.5em;text-transform:uppercase;margin:0 1rem;font-weight:600}.container{display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:auto;grid-gap:5rem;justify-items:center;-webkit-box-align:center;align-items:center}.bgimg{height:50vh;width:-webkit-max-content;width:-moz-max-content;width:max-content;display:-webkit-box;display:flex;width:100%;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;background-position:center;background-size:cover;border-radius:1rem;overflow:hidden}.bgimg-ajolote{grid-column-start:1;grid-column-end:3;background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/naturaleza/naturaleza (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/naturaleza/naturaleza (1).jpg")}.bgimg-ajolote:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/naturaleza/naturaleza (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/naturaleza/naturaleza (1).jpg")}.bgimg-autoretratos{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/autoretratos/autoretrato (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/autoretratos/autoretrato (1).jpg")}.bgimg-autoretratos:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/autoretratos/autoretrato (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/autoretratos/autoretrato (1).jpg")}.bgimg-exlibris{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6)));background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6))}.bgimg-producto{grid-column-start:2;grid-column-end:4;background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/productos/productos (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/productos/productos (1).jpg")}.bgimg-producto:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/productos/productos (1).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/productos/productos (1).jpg")}.bgimg-microuniversos{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/proyectos/microuniversos/microuniverso (15).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/proyectos/microuniversos/microuniverso (15).jpg")}.bgimg-microuniversos:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/proyectos/microuniversos/microuniverso (15).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/proyectos/microuniversos/microuniverso (15).jpg")}.bgimg-ojos{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/proyectos/ojos/ojo (11).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/proyectos/ojos/ojo (11).jpg")}.bgimg-ojos:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/proyectos/ojos/ojo (11).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/proyectos/ojos/ojo (11).jpg")}.bgimg-retratos{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))),url("../img/retratos/retrato (13).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../img/retratos/retrato (13).jpg")}.bgimg-retratos:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/retratos/retrato (13).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/retratos/retrato (13).jpg")}.redirigir{color:white;font-weight:500;font-size:3em;-webkit-transition:0.3s all ease-in-out;transition:0.3s all ease-in-out}.redirigir:hover{-webkit-transform:scale(1.2);transform:scale(1.2);cursor:pointer}.header{display:-webkit-box;display:flex;height:90vh}.header-container{width:100%}.header-left{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;width:50%;background-position:center;background-size:cover;-webkit-transition:all 0.4s ease-in;transition:all 0.4s ease-in}.header-left-1{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/productos/productos (13).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/productos/productos (13).jpg")}.header-left-1:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),url("../img/productos/productos (13).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../img/productos/productos (13).jpg")}.header-left-2{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/naturaleza/naturaleza (24).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/naturaleza/naturaleza (24).jpg")}.header-left-2:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),url("../img/naturaleza/naturaleza (24).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../img/naturaleza/naturaleza (24).jpg")}.header-right{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;width:50%;background-position:center;background-size:cover;-webkit-transition:all 0.4s ease-in;transition:all 0.4s ease-in}.header-right-1{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/retratos/retratos estudio/estudio (14).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/retratos/retratos estudio/estudio (14).jpg")}.header-right-1:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),url("../img/retratos/retratos estudio/estudio (14).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../img/retratos/retratos estudio/estudio (14).jpg")}.header-right-2{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.2)), to(rgba(0,0,0,0.2))),url("../img/proyectos/microuniversos/microuniverso (15).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url("../img/proyectos/microuniversos/microuniverso (15).jpg")}.header-right-2:hover{background-image:-webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,0.4))),url("../img/proyectos/microuniversos/microuniverso (15).jpg");background-image:linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("../img/proyectos/microuniversos/microuniverso (15).jpg")}.header-title{color:white;font-weight:500;font-size:3em;margin-top:35rem;-webkit-transition:0.3s all ease-out;transition:0.3s all ease-out;cursor:pointer}.header-title:hover{-webkit-transform:scale(1.2);transform:scale(1.2)}.about{padding:5rem}.about-title{color:white;font-size:4em}.about-description{color:white;font-size:1.6em;width:40%;margin:2rem 1rem}.buttons{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;margin:2rem 0}.button{cursor:pointer;height:1.5rem;width:1.5rem;margin:0 1rem;border:1px solid white;border-radius:50%;display:inline-block;-webkit-transition:background-color 0.3s ease;transition:background-color 0.3s ease}.button:hover{background-color:white}.button-active{background-color:white}.proyectos{padding:2rem 5rem}.proyectos-title{color:white;font-size:4em;font-weight:400;margin-bottom:4rem}
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  /* this box sizing says that it will not include padding and margin to total dimensions of box */ }
+
+/* basic reset, adds css to everything for every browser */
+html {
+  font-size: 62.5%;
+  font-family: 'quicksand';
+  /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */ }
+
+a {
+  text-decoration: none; }
+
+body {
+  box-sizing: border-box;
+  background-color: #010000;
+  /* changes the box model to make the content area the total border size, easier calculations */ }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Regular.ttf");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Light.ttf");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Medium.ttf");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-Bold.ttf");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "quicksand";
+  src: url("../fonts/Quicksand-SemiBold.ttf");
+  font-weight: 600; }
+
+.nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav-left {
+    color: white; }
+  .nav-right {
+    color: white; }
+  .nav-title {
+    color: white;
+    font-size: 3em;
+    font-weight: 500; }
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0 1rem;
+    font-weight: 600; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 5rem;
+  justify-items: center;
+  align-items: center; }
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 2rem;
+  justify-items: center; }
+
+.containermenor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.bgimg {
+  height: 50vh;
+  width: max-content;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden; }
+  .bgimg-ajolote {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/naturaleza/naturaleza (1).jpg"); }
+    .bgimg-ajolote:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (1).jpg"); }
+  .bgimg-autoretratos {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/autoretratos/autoretrato (1).jpg"); }
+    .bgimg-autoretratos:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/autoretratos/autoretrato (1).jpg"); }
+  .bgimg-exlibris {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); }
+  .bgimg-producto {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/productos/productos (1).jpg"); }
+    .bgimg-producto:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (1).jpg"); }
+  .bgimg-microuniversos {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proyectos/microuniversos/microuniverso (15).jpg"); }
+    .bgimg-microuniversos:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/microuniversos/microuniverso (15).jpg"); }
+  .bgimg-ojos {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/proyectos/ojos/ojo (11).jpg"); }
+    .bgimg-ojos:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/ojos/ojo (11).jpg"); }
+  .bgimg-retratos {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/retratos/retrato (13).jpg"); }
+    .bgimg-retratos:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retrato (13).jpg"); }
+  .bgimg-instagram {
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/retratos/retrato (3).jpg"); }
+    .bgimg-instagram:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retrato (3).jpg"); }
+  .bgimg-correo {
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/naturaleza/naturaleza (14).jpg"); }
+    .bgimg-correo:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (14).jpg"); }
+  .bgimg-px {
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/productos/productos (3).jpg"); }
+    .bgimg-px:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (3).jpg"); }
+  .bgimg-telefono {
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/autoretratos/autoretrato (5).jpg"); }
+    .bgimg-telefono:hover {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/autoretratos/autoretrato (5).jpg"); }
+
+.redirigir {
+  color: white;
+  font-weight: 500;
+  font-size: 3em;
+  transition: 0.3s all ease-in-out;
+  margin-top: 3em; }
+  .redirigir:hover {
+    transform: scale(1.2);
+    cursor: pointer; }
+
+.svg {
+  height: 17em;
+  width: 17em;
+  transition: 0.3s all ease-in-out; }
+  .svg:hover {
+    transform: scale(1.2);
+    cursor: pointer; }
+
+.header {
+  display: flex;
+  height: 90vh; }
+  .header-container {
+    width: 100%; }
+  .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s ease-in; }
+    .header-left-1 {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (13).jpg"); }
+      .header-left-1:hover {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/productos/productos (13).jpg"); }
+    .header-left-2 {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (24).jpg"); }
+      .header-left-2:hover {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/naturaleza/naturaleza (24).jpg"); }
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.4s ease-in; }
+    .header-right-1 {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retratos estudio/estudio (14).jpg"); }
+      .header-right-1:hover {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/retratos/retratos estudio/estudio (14).jpg"); }
+    .header-right-2 {
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/microuniversos/microuniverso (15).jpg"); }
+      .header-right-2:hover {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/proyectos/microuniversos/microuniverso (15).jpg"); }
+  .header-title {
+    color: white;
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 35rem;
+    transition: 0.3s all ease-out;
+    cursor: pointer; }
+    .header-title:hover {
+      transform: scale(1.2); }
+
+.about {
+  padding: 5rem; }
+  .about-title {
+    color: white;
+    font-size: 4em; }
+  .about-description {
+    color: white;
+    font-size: 1.6em;
+    width: 40%;
+    margin: 2rem 1rem; }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0; }
+
+.button {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease; }
+  .button:hover {
+    background-color: white; }
+  .button-active {
+    background-color: white; }
+
+.proyectos {
+  padding: 2rem 5rem; }
+  .proyectos-title {
+    color: white;
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 4rem; }

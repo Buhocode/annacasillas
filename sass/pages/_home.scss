@@ -12,22 +12,16 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
-
         &-1 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/productos/productos (13).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (13).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/productos/productos (13).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/productos/productos (13).jpg");
             }
         }
-
         &-2 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/naturaleza/naturaleza (24).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (24).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/naturaleza/naturaleza (24).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/naturaleza/naturaleza (24).jpg");
             }
         }
         &-3 {
@@ -35,7 +29,6 @@
             // url(../img/producto.jpg);
         }
     }
-
     &-right {
         display: flex;
         justify-content: center;
@@ -44,21 +37,16 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
-
         &-1 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/retratos/retratos estudio/estudio (14).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retratos estudio/estudio (14).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/retratos/retratos estudio/estudio (14).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/retratos/retratos estudio/estudio (14).jpg");
             }
         }
         &-2 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
             }
         }
         &-3 {
@@ -66,7 +54,6 @@
             // url(../img/producto.jpg);
         }
     }
-
     &-title {
         color: white;
         font-weight: 500;
@@ -82,7 +69,6 @@
 
 .about {
     padding: 5rem;
-
     &-title {
         color: white;
         font-size: 4em;
@@ -94,11 +80,13 @@
         margin: 2rem 1rem;
     }
 }
+
 .buttons {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
 }
+
 .button {
     cursor: pointer;
     height: 1.5rem;
@@ -115,6 +103,7 @@
         background-color: white;
     }
 }
+
 .proyectos {
     padding: 2rem 5rem;
     &-title {
