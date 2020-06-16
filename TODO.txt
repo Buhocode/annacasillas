@@ -1,5 +1,3 @@
-1. Terminar la home page (hasta abajo vienen instrucciones de cosas que faltan).
-1.1. Anna quiere que los primeros dos contenedores que se ven, que sean slides de las secciones de la pagina.
-
-2. Minimizar fotos y convertirlas a .jpg
-3. Pleanear las otras paginas y agregar planeacion a esta lista.
+1. Juntar pagina de contacto y su scss
+2. Agregar footers
+3. Subir la pagina

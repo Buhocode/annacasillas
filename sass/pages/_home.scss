@@ -1,6 +1,11 @@
 .header {
     display: flex;
     height: 90vh;
+    width: 100%;
+    @media screen and (max-width: 1100px) {
+        width: 100vw;
+        height: 80vh;
+    }
     &-container {
         width: 100%;
     }
@@ -12,23 +17,35 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
+
         &-1 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/productos/productos (13).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/productos/productos (13).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/productos/productos (13).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url("../img/productos/productos (13).jpg");
             }
         }
+
         &-2 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/naturaleza/naturaleza (24).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/naturaleza/naturaleza (24).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/naturaleza/naturaleza (24).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url("../img/naturaleza/naturaleza (24).jpg");
             }
         }
         &-3 {
-            // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            // url(../img/producto.jpg);
+            background-color: white;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/exlibris/exlibris (1).jpg");
+            &:hover {
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url("../img/exlibris/exlibris (1).jpg");
+            }
         }
     }
+
     &-right {
         display: flex;
         justify-content: center;
@@ -37,23 +54,34 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
+
         &-1 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/retratos/retratos estudio/estudio (14).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/retratos/retratos estudio/estudio (14).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/retratos/retratos estudio/estudio (14).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url("../img/retratos/retratos estudio/estudio (14).jpg");
             }
         }
         &-2 {
-            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/proyectos/microuniversos/microuniverso (15).jpg");
             &:hover {
-                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+                background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+                    url("../img/proyectos/microuniversos/microuniverso (15).jpg");
             }
         }
-        &-3 {
-            // background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            // url(../img/producto.jpg);
-        }
+        // &-3 {
+        //     background-color: white;
+        //     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        //         url("../img/exlibris/pablo.jpg");
+        //     &:hover {
+        //         background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        //             url("../img/exlibris/pablo.jpg");
+        //     }
+        // }
     }
+
     &-title {
         color: white;
         font-weight: 500;
@@ -68,7 +96,12 @@
 }
 
 .about {
+    width: 100%;
+    @media screen and (max-width: 1100px) {
+        width: 100vw;
+    }
     padding: 5rem;
+
     &-title {
         color: white;
         font-size: 4em;
@@ -77,16 +110,17 @@
         color: white;
         font-size: 1.6em;
         width: 40%;
+        @media screen and (max-width: 600px) {
+            width: 100%;
+        }
         margin: 2rem 1rem;
     }
 }
-
 .buttons {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
 }
-
 .button {
     cursor: pointer;
     height: 1.5rem;
@@ -103,7 +137,6 @@
         background-color: white;
     }
 }
-
 .proyectos {
     padding: 2rem 5rem;
     &-title {

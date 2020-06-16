@@ -4,11 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="shortcut icon" type="image/png" href="./img/blanco.jpg">
 
     <title>Anna Casillas</title>
 </head>
@@ -16,42 +13,48 @@
 <body>
     <nav class="nav">
         <div class="nav-left">
-            <a href="">
-                <h1 class="nav-title">
-                    anna casillas
-                </h1>
+            <a href="#">
+                <div class="logo-container">
+                    <img class="logo" src="./img/logo-no-background.png" alt="Anna Casillas Logo">
+                    <h1 class="nav-title">
+                        anna casillas
+                    </h1>
+                </div>
             </a>
         </div>
-        <div class="nav-right">
-            <a href="" class="nav-item">Productos</a>
-            <a href="" class="nav-item">Retratos</a>
-            <a href="" class="nav-item">Proyectos</a>
-            <a href="" class="nav-item">Naturaleza</a>
-            <a href="contacto.html" class="nav-item">Contacto</a>
+        <div id="nav-right" class="nav-right">
+            <a class="nav-item nav-close" onclick="closeNav()">&times;</a>
+            <a href="./productos.html" class="nav-item">Productos</a>
+            <a href="./retratos.html" class="nav-item">Retratos</a>
+            <a href="./proyectos.html" class="nav-item">Proyectos</a>
+            <a href="./naturaleza.html" class="nav-item">Naturaleza</a>
+            <a href="./digital.html" class="nav-item">Arte digital</a>
+            <a href="./contacto.html" class="nav-item">Contacto</a>
         </div>
+        <a class="nav-burger" onclick="openNav()">&#9776;</a>
     </nav>
     <header class="header">
         <div onmouseover="mouseStatus(true)" onmouseout="mouseStatus(false)" class="header-container">
-            <a href="" class="header-left-1 header-left">
+            <a href="./productos.html" class="header-left-1 header-left">
                 <div class="header-title">/productos/</div>
             </a>
-            <a href="" class="header-right-1 header-right">
+            <a href="./retratos.html" class="header-right-1 header-right">
                 <div class="header-title">/retratos/</div>
             </a>
         </div>
         <div onmouseover="mouseStatus(true)" onmouseout="mouseStatus(false)" class="header-container">
-            <a href="" class="header-left-2 header-left">
+            <a href="./naturaleza.html" class="header-left-2 header-left">
                 <div class="header-title">/naturaleza/</div>
             </a>
-            <a href="" class="header-right-2 header-right">
+            <a href="./proyectos.html" class="header-right-2 header-right">
                 <div class="header-title">/proyectos/</div>
             </a>
         </div>
         <div onmouseover="mouseStatus(true)" onmouseout="mouseStatus(false)" class="header-container">
-            <a href="" class="header-left-3 header-left">
+            <a href="./digital.html#exlibris" class="header-left-3 header-left">
                 <div class="header-title">/exlibris/</div>
             </a>
-            <a href="" class="header-right-3 header-right">
+            <a href="./digital.html" class="header-right-3 header-right">
                 <div class="header-title">/arte digital/</div>
             </a>
         </div>
@@ -66,37 +69,46 @@
             ¿Quién soy yo?
         </div>
         <div class="about-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsam. Praesentium, asperiores doloribus esse vel eaque enim minima quod sequi non facilis libero cum necessitatibus neque ducimus modi consequuntur laborum!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ipsam. Praesentium, asperiores doloribus esse
+            vel eaque enim minima quod sequi non facilis libero cum necessitatibus neque ducimus modi consequuntur
+            laborum!
         </div>
     </section>
     <section class="proyectos">
         <h1 class="proyectos-title">Galería</h1>
         <div class="container">
-            <a class="bgimg bgimg-ajolote" href="">
+            <a class="bgimg bgimg-ajolote" href="./naturaleza.html">
                 <p class="redirigir">/naturaleza/</p>
             </a>
-            <a class="bgimg bgimg-autoretratos" href="">
+            <a class="bgimg bgimg-autoretratos" href="./retratos.html#autoretratos">
                 <p class="redirigir">/autoretratos/</p>
             </a>
-            <a class="bgimg bgimg-exlibris" href="">
+            <a class="bgimg bgimg-exlibris" href="./digital.html#exlibris">
                 <p class="redirigir">/exlibris/</p>
             </a>
-            <a class="bgimg bgimg-producto" href="">
-                <p class="redirigir">/fotografia de producto/</p>
+            <a class="bgimg bgimg-producto" href="./productos.html">
+                <p class="redirigir">/foto-producto/</p>
             </a>
-            <a class="bgimg bgimg-microuniversos" href="">
+            <a class="bgimg bgimg-microuniversos" href="./proyectos.html#microuniversos">
                 <p class="redirigir">/microuniversos/</p>
             </a>
-            <a class="bgimg bgimg-ojos" href="">
+            <a class="bgimg bgimg-ojos" href="./proyectos.html#ojos">
                 <p class="redirigir">/ojos/</p>
             </a>
-            <a class="bgimg bgimg-retratos" href="">
+            <a class="bgimg bgimg-retratos" href="./retratos.html">
                 <p class="redirigir">/retratos/</p>
             </a>
         </div>
-        <!-- Cada proyecto sera uno de los folders en el drive de fotos.  -->
-        <!-- Ve la pagina en la que nos estamos basando para que veas los cuadritos -->
+       
     </section>
+    <footer class="footer">
+        <div class="logo-container-2">
+            <img class="logo-2" src="./img/logo-no-background.png" alt="Anna Casillas Logo">
+        </div>
+        <div class="footer-title">
+            &copy; Anna Casillas
+        </div>
+    </footer>
     <script src="./scripts/home.js"></script>
 </body>
 

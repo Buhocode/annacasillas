@@ -6,12 +6,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    transition: all 0.4s ease-out;
+   
     &-left {
         color: white;
     }
     &-right {
         color: white;
+        @media screen and (max-width: 1100px) {
+            height: 100%; /* 100% Full-height */
+            width: 0; /* 0 width - change this with JavaScript */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Stay on top */
+            top: 0;
+            left: 0;
+            background-color: #111; /* Black*/
+            overflow-x: hidden; /* Disable horizontal scroll */
+            padding-top: 60px; /* Place content 60px from the top */
+            transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+        }
     }
     &-title {
         color: white;
@@ -25,6 +38,34 @@
         text-transform: uppercase;
         margin: 0 1rem;
         font-weight: 600;
+        @media screen and (max-width: 1100px) {
+            display: none;
+            font-size: 2em;
+            padding: 1rem 2rem;
+            font-weight: 300;
+        }
     }
-}
+    &-transparent {
+        background-color: transparent;
+    }
+    &-dark {
+        background-color: rgba(black, 0.6);
+    }
+    &-burger {
+        display: none;
+        font-size: 2.5em;
+        font-weight: 300;
+        @media screen and (max-width: 1100px) {
+            display: inline-block;
+            color: white;
+        }
+    }
+    &-close {
+        display: none;
+        @media screen and (max-width: 1100px) {
+          display: block;
+          font-size: 5em;
+        }
+    }
 
+}

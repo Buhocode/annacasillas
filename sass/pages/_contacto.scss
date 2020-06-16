@@ -1,0 +1,81 @@
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5rem;
+    justify-items: center;
+    padding: 2rem 5rem;
+    height: 30rem;
+    &-sub {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    @media screen and (max-width: 900px) {
+        grid-template-columns: repeat(2, 1fr);
+        height: 60rem;
+    }
+    @media screen and (max-width: 650px) {
+        grid-template-columns: 1fr;
+        height: 150rem;
+    }
+}
+.contact-item {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1rem;
+    overflow: hidden;
+
+    &-instagram {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/retratos/retrato (3).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/retratos/retrato (3).jpg");
+        }
+    }
+    &-correo {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/naturaleza/naturaleza (14).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/naturaleza/naturaleza (14).jpg");
+        }
+    }
+    &-px {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/productos/productos (3).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/productos/productos (3).jpg");
+        }
+    }
+    &-telefono {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("../img/autoretratos/autoretrato (5).jpg");
+        &:hover {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                url("../img/autoretratos/autoretrato (5).jpg");
+        }
+    }
+}
+.svg {
+    height: 5rem;
+    width: 5rem;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    &-big {
+        height: 9rem;
+        width: 9rem;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+}

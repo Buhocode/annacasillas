@@ -1,0 +1,20 @@
+.logo {
+    width: 8rem;
+    @media screen and (max-width: 600px) {
+        margin-right: 2rem;
+    }
+    &-container {
+        display: flex;
+        align-items: center;
+
+        &-2{
+            padding: 4rem 2rem;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+    }
+    &-2{
+        width: 15rem;
+    }
+}

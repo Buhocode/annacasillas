@@ -8,8 +8,12 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/footer";
 @import "components/navbar";
+@import "components/logo";
 
 @import "layout/grid";
 
+@import "pages/contacto";
 @import "pages/home";
+@import "pages/galerias";
