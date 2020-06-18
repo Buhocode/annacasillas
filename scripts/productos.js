@@ -6,6 +6,7 @@ for (var i = 1; i <= photos; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/productos/productos (${i}).jpg`;
+    photo.alt = `Fotografía de producto ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);

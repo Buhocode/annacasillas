@@ -20,6 +20,7 @@ for (var i = 1; i <= exlibris; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item', 'exlibris');
     photo.src = `./img/exlibris/exlibris (${i}).png`;
+    photo.alt = `Arte digital exlibris ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);

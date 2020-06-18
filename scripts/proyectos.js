@@ -6,6 +6,7 @@ for (var i = 1; i <= photos; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/proyectos/microuniversos/microuniverso (${i}).jpg`;
+    photo.alt = `Fotografía de proyecto microuniversos ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
@@ -19,6 +20,7 @@ for (var i = 1; i <= ojos; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/proyectos/ojos/ojo (${i}).jpg`;
+    photo.alt = `Fotografía de ojos ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);

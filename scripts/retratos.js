@@ -7,6 +7,7 @@ for (var i = 1; i <= photos; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/retratos/retrato (${i}).jpg`;
+    photo.alt = `Fotografía de retratos ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
@@ -20,6 +21,7 @@ for (var i = 1; i <= estudio; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/retratos/retratos estudio/estudio (${i}).jpg`;
+    photo.alt = `Fotografía de estudio ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
@@ -32,6 +34,7 @@ for (var i = 1; i <= fineArt; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/retratos/fine-art/fineart (${i}).jpg`;
+    photo.alt = `Fotografía de retratos fine-art ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
@@ -44,6 +47,7 @@ for (var i = 1; i <= desnudo; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/retratos/desnudo/desnudo (${i}).jpg`;
+    photo.alt = `Fotografía de retrato desnudo ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
@@ -56,6 +60,7 @@ for (var i = 1; i <= autoretratos; i++) {
     photo.classList.add('grid-photo');
     gridItem.classList.add('grid-item');
     photo.src = `./img/autoretratos/autoretrato (${i}).jpg`;
+    photo.alt = `Autoretrato de Anna Casillas ${i}`;
     photo.width = 300;
     gridItem.appendChild(photo);
     grid[0].appendChild(gridItem);
