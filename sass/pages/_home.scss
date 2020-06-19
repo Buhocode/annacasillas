@@ -17,6 +17,7 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
+        text-align: center;
 
         &-1 {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -54,21 +55,22 @@
         background-position: center;
         background-size: cover;
         transition: all 0.4s ease-in;
+        text-align: center;
 
         &-1 {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/retratos/retratos estudio/estudio (14).jpg");
+                url("../img/retratos/retrato (1).jpg");
             &:hover {
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/retratos/retratos estudio/estudio (14).jpg");
+                    url("../img/retratos/retrato (1).jpg");
             }
         }
         &-2 {
             background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-                url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+                url("../img/proyectos/microuniversos/microuniverso (8).jpg");
             &:hover {
                 background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-                    url("../img/proyectos/microuniversos/microuniverso (15).jpg");
+                    url("../img/proyectos/microuniversos/microuniverso (8).jpg");
             }
         }
         // &-3 {

@@ -13,11 +13,14 @@ html {
 
     /* this changes rem value to 10 isntead of 16, set to percetnage for adaptability of user */
     // this defines what a 1rem is
-    @media screen and (max-width: 450px) {
-        font-size: 50%; //1rem = 9px
-    }
     @media screen and (max-width: 800px) {
         font-size: 56.25%; //1rem = 9px
+    }
+    @media screen and (max-width: 450px) {
+        font-size: 50%; //1rem = 8px
+    }
+    @media screen and (max-width: 350px) {
+        font-size: 44.75%; //1rem = 7px
     }
     // @include respond(tab-land) {
     //     font-size: 56.25%; //1rem = 9px
