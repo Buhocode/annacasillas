@@ -1,3 +1,0 @@
-1. Juntar pagina de contacto y su scss
-2. Agregar footers
-3. Subir la pagina
