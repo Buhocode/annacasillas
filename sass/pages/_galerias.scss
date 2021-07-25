@@ -1,156 +1,155 @@
 .productos {
-    padding: 4.5rem;
-    width: 50vw;
-    @media screen and (max-width: 600px) {
-        width: 100%;
-    }
-    &-title {
-        color: white;
-        font-size: 4em;
-        font-weight: 300;
-    }
-    &-description {
-        color: white;
-        font-size: 1.6em;
-        font-weight: 400;
-        margin: 2rem 0;
-    }
+  padding: 4.5rem;
+  width: 50vw;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+  &-title {
+    color: white;
+    font-size: 4em;
+    font-weight: 300;
+  }
+  &-description {
+    color: white;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 2rem 0;
+  }
 }
 .grid {
-    padding: 4.5rem;
+  padding: 4.5rem;
+  column-count: 3;
+  column-gap: 2rem;
+  @media screen and (max-width: 800px) {
+    column-count: 2;
+    column-gap: 0.5rem;
+    padding: 1rem;
+  }
+
+  &1,
+  &2,
+  &3,
+  &4,
+  &5 {
     column-count: 3;
     column-gap: 2rem;
+    padding: 4.5rem;
     @media screen and (max-width: 800px) {
-        column-count: 2;
-        column-gap: 0.5rem;
-        padding: 1rem;
+      padding: 1rem;
+      column-count: 2;
+      column-gap: 0.5rem;
     }
-
-    &1,
-    &2,
-    &3,
-    &4,
-    &5 {
-        column-count: 3;
-        column-gap: 2rem;
-        padding: 4.5rem;
-        @media screen and (max-width: 800px) {
-            padding: 1rem;
-            column-count: 2;
-            column-gap: 0.5rem;
-        }
-    }
-    &-item {
-        margin-bottom: 2rem;
-        width: 100%;
-        @media screen and (max-width: 600px) {
-            margin-bottom: 0.5rem;
-        }
-    }
-    &-photo {
-        transition: all 0.5s ease-out;
-        border-radius: 5px;
-        overflow: hidden;
-        width: 100%;
-        &:hover {
-            transform: scale(1.05);
-        }
-    }
-}
-.invisible-box {
-    height: 10rem;
-}
-.original {
-    display: flex;
-    flex-direction: column;
-    margin: 5rem;
-    &-title {
-        color: white;
-        width: 50vw;
-        font-size: 3em;
-        font-weight: 300;
-        margin: 1rem 0;
-        @media screen and (max-width: 600px) {
-            width: 100%;
-        }
-    }
-    &-description {
-        color: white;
-        width: 50vw;
-        font-size: 1.6em;
-        font-weight: 400;
-        margin: 1rem 0;
-        @media screen and (max-width: 600px) {
-            width: 100%;
-        }
-    }
-}
-.btn {
-    margin: 2rem 0;
-    width: 18rem;
-    border-style: none;
-    background-color: transparent;
-    color: white;
-    font-size: 2em;
-    border: 1px solid white;
-    padding: 1.5rem 2rem;
-    transition: all 0.3s;
-    &:hover {
-        color: black;
-        background-color: white;
-    }
-}
-.exlibris {
-    background-color: white;
-    overflow: hidden;
-}
-.text {
-    padding: 5rem;
-    color: white;
-    display: flex;
-    align-content: center;
-    height: 45rem;
+  }
+  &-item {
+    margin-bottom: 2rem;
     width: 100%;
     @media screen and (max-width: 600px) {
-        flex-direction: column;
-        height: min-content;
+      margin-bottom: 0.5rem;
     }
+  }
+  &-photo {
+    transition: all 0.5s ease-out;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
+.invisible-box {
+  height: 10rem;
+}
+.original {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  &-title {
+    color: white;
+    width: 50vw;
+    font-size: 3em;
+    font-weight: 300;
+    margin: 1rem 0;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  &-description {
+    color: white;
+    width: 50vw;
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 1rem 0;
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+}
+.btn {
+  margin: 2rem 0;
+  width: 18rem;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 2em;
+  border: 1px solid white;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s;
+  &:hover {
+    color: black;
+    background-color: white;
+  }
+}
+.exlibris {
+  background-color: white;
+  overflow: hidden;
+}
+.text {
+  padding: 5rem;
+  color: white;
+  display: flex;
+  align-content: center;
+  height: 45rem;
+  width: 100%;
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    height: min-content;
+  }
 
-    &-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: 0 2rem; 
-        @media screen and (max-width: 600px) {
-            margin: 0;
-        }       
+  &-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem;
+    @media screen and (max-width: 600px) {
+      margin: 0;
     }
-    &-title {
-        font-size: 3em;
-        font-weight: 300;
+  }
+  &-title {
+    font-size: 3em;
+    font-weight: 300;
+  }
+  &-description {
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 2rem 0;
+  }
+  &-image {
+    // background-image: url('../img/retratos/retrato-text.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.5s ease-out;
+    &:hover {
+      transform: scale(1.03);
     }
-    &-description {
-        font-size: 1.6em;
-        font-weight: 400;
-        margin: 2rem 0;
+    &-2 {
+      background-image: url("../img/autoretratos/autoretrato-text.jpg");
     }
-    &-image {
-        background-image: url('../img/retratos/retrato-text.jpg');
-        background-size: cover;
-        background-position: center;
-        border-radius: 1rem;
-        overflow: hidden;
-        transition: all 0.5s ease-out;
-        &:hover {
-            transform: scale(1.03);
-        }
-        &-2 {
-            background-image: url('../img/autoretratos/autoretrato-text.jpg');
-
-        }
-        @media screen and (max-width: 600px) {
-            width: 100%;
-            height: 40rem;
-        }
+    @media screen and (max-width: 600px) {
+      width: 100%;
+      height: 40rem;
     }
+  }
 }
