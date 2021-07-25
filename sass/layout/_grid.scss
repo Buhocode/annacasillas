@@ -1,89 +1,123 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 5rem;
-    justify-items: center;
-    align-items: center;
-    width: 100%;
-    @media screen and (max-width: 800px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    @media screen and (max-width: 600px) {
-        grid-template-columns: 1fr;
-    }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 5rem;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  @media screen and (max-width: 800px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .bgimg {
-    height: 35rem;
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    border-radius: 1rem;
-    overflow: hidden;
+  height: 35rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
 
-    &-ajolote {
-        grid-column-start: 1;
-        grid-column-end: 3;
-        width: 100%;
-        @media screen and (max-width: 800px) {
-            grid-column: auto;
-        }
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url("../img/naturaleza/naturaleza (1).jpg");
+  transition: all 0.2s ease-out;
+  &-ajolote {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    @media screen and (max-width: 800px) {
+      grid-column: auto;
     }
-    &-autoretratos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url("../img/autoretratos/autoretrato (1).jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/naturaleza/p1.jpg");
+  }
+  &-autoretratos {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/autoretratos/p1.jpg");
+  }
+  &-exlibris {
+    background-color: white;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../img/exlibris/p1.jpg");
+  }
+  &-producto {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    @media screen and (max-width: 800px) {
+      grid-column: auto;
     }
-    &-exlibris {
-        background-color: white;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url("../img/exlibris/exlibris (1).jpg");
-    }
-    &-producto {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        @media screen and (max-width: 800px) {
-            grid-column: auto;
-        }
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-            url("../img/productos/productos (1).jpg");
-    }
-    &-microuniversos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url("../img/proyectos/microuniversos/microuniverso (2).jpg");
-    }
-    &-ojos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url("../img/proyectos/ojos/ojo (11).jpg");
-    }
-    &-retratos {
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url("../img/retratos/retrato (13).jpg");
-    }
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+      ),
+      url("../img/productos/p1.jpg");
+  }
+  &-microuniversos {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/proyectos/microuniversos/p2.jpg");
+  }
+  &-ojos {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/proyectos/ojos/p11.jpg");
+  }
+  &-retratos {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../img/retratos/p13.jpg");
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 }
 
 .redirigir {
+  color: white;
+  font-weight: 500;
+  font-size: 3em;
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  &-small {
     color: white;
     font-weight: 500;
-    font-size: 3em;
+    font-size: 1.7em;
     transition: 0.3s all ease-in-out;
     &:hover {
-        transform: scale(1.2);
-        cursor: pointer;
+      transform: scale(1.2);
+      cursor: pointer;
     }
-    &-small {
-        color: white;
-        font-weight: 500;
-        font-size: 1.7em;
-        transition: 0.3s all ease-in-out;
-        &:hover {
-            transform: scale(1.2);
-            cursor: pointer;
-        }
-    }
+  }
 }
