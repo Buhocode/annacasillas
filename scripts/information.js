@@ -4,7 +4,7 @@
 const pageStructure = {
     productos: [
         titulo(
-            'Fotografía de producto',
+            'Fotografía de producto nuevo',
             'Esta sección se concentra en la fotografía de producto o tipo comercial.'
         ),
         fotos(
